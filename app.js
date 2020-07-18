@@ -1050,6 +1050,146 @@ document.write(lname("pakistani","i"))
 // 14
 
 
+// Chpter 39-42
+// Q1
+// function power(a,b){
+//     return a**b
+// }
+
+// console.log(power(2,3))
+
+// Q2
+// function checkLeapYear(a){
+//     if (a%400==0 && a%100==0 && a%4==0) {
+//         return "is leap"
+//     }
+//     else{
+//         return "is not leap"
+//     }
+
+// }
+
+// Q3
+
+// function calculateS(a,b,c){
+//     var s = (a+b+c)/2
+//     return s
+// }
+
+// function calculateArea(a,b,c) {
+//     var s = calculateS(a,b,c)
+//     var area = s*(s-a)*(s-c)*(s-c)
+//     return area
+    
+// }
+
+// console.log(calculateArea(2,2,2))
+
+// Q4
+// function calPer(a,b,c){
+//     var per = (a+b+c)/3
+//     return per
+// }
+
+// function calAvg(a,b,c){
+//     return (a+b+c)/3
+// }
+
+// function cal(a,b,c){
+//     var p = calAvg(a,b,c)
+//     var a =calPer(a,b,c)
+//     console.log("Avg is: ",p)
+//     console.log("Per is: ",a)
+// }
+
+// cal(100,50,50)
+
+// Q6
+
+// function fun(s){
+    
+//     var vo = ["a","e","o","u","i"]
+//     var se=""
+//     var flag;
+//     for (let index = 0; index < s.length; index++) {
+//         flag =false
+
+//         for (let index1 = 0; index1 < vo.length; index1++) {
+//             if (s[index]==vo[index1]) {
+//                 flag = true
+//                 break
+//             }
+
+//         }
+//         if (flag==false){
+//             se+=s[index]
+//         }
+
+//     }
+//     return se
+// }
+
+
+// var str = "bbabbebbobbubbbibba"
+
+// console.log(fun(str.toLowerCase()))
+
+
+// Q8
+
+// // 9
+// function cal(hr){
+//     var c= hr - 40
+//     c = c*12
+//     return c
+// }
+
+// var c = 45.5
+// c=Math.floor(c)
+// console.log(cal(c))
+
+// var a = prompt("Enter num")
+// var h100 = Math.floor(a/100)
+// var f50 = Math.floor((a-h100*100)/50)
+// var t10 = Math.floor(((a-h100*100)-50)/10)
+
+// document.write("you will have ",h100," hundred notes ",f50," fifty notes ",t10," ten notes")
+
+            // ch43-48
+
+// 1
+// function fun(){
+//     alert("alert")
+// }
+
+// 5
+
+// var count = document.getElementById("label");
+
+// var c = 0
+
+// function inc(){
+//     c++
+//     count.innerHTML=c
+    
+// }
+
+// function dec(){
+// // var count = document.getElementById("label")
+
+//     c--
+//     count.innerHTML=c
+// }
+
+
+         
+
+// Ch 49-52
+
+var part1 = document.getElementById("main-content")
+console.log(part1.getElementsByTagName('p'))
+
+
 
 
 
